@@ -3,28 +3,31 @@
     gap: 40px 20px;
     padding: 15px;
     overflow: hidden;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
-/* @media (max-width: 950px) {
-    .main-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width:951px) and (max-width:2500px)
-{
+@media(max-width:500px){
     .main-grid{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
-@media (min-width: 2501px) {
-    .main-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+@media (min-width:650px){
+    .main-grid{
+        grid-template-columns: repeat(2,1fr);
     }
-} */
+}
 
+@media (min-width:1000px){
+    .main-grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width:1900px){
+    .main-grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
 
 .video-box {
     width: 100%;
