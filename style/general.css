@@ -1,25 +1,25 @@
 body {
-    margin: 0;
-    padding: 0;
     background-color: rgb(159, 159, 159);
     padding-top: 52px;
     padding-left: 92px;
+    margin-right: 0px;
     margin-bottom: 1000px;
 
     transition: padding-left 1s ease;
-
 }
 
 @media(max-width:500px) {
     body {
         padding-left: 0px;
+        margin: 0px;
+        margin-top:9px;
     }
 }
 
 
 @media(min-width:1000px) {
     body {
-        padding-left: 212px;
+        padding-left: 213px;
     }
 }
 

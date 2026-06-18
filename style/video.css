@@ -24,7 +24,7 @@
 }
 
 @media (min-width:1900px){
-    .main-grid{
+    .main-grid{   
         grid-template-columns: repeat(4,1fr);
     }
 }
